@@ -1,0 +1,66 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background : #0c3f19;
+    gap: 20px;
+}
+
+.eye{
+    width:140px;
+    height:260px;
+    background: #FFFFFF;
+    border-radius:50%;
+    box-shadow: inset 0px 0px 20px 10px rgba(0,0,0,0.4);
+    position: relative;
+}
+
+.iris{
+    width:80px;
+    height:80px;
+    background: #3cff00;
+    background: linear-gradient(#03310c,70%,#00ff1a);
+    border-radius: 50%;
+    position: absolute;
+    top:20%;
+    left: 35%;
+}
+
+.iris2{
+    width:80px;
+    height:80px;
+    background: #ffd000;
+    background: linear-gradient(#5c5b12,70%,#ffea00);
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left: 10%;
+}
+
+.pupil{
+    width:65%;
+    height:65%;
+    background: black;
+    border-radius: 50%;
+}
+
+.shimmering{
+    width: 30%;
+    height: 35%;
+    background: white;
+    position: absolute;
+    border-radius:50%;
+    top: 10%;
+    left: 18%;
+    transform:rotate(30deg);
+}
+
+.u-flex{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
